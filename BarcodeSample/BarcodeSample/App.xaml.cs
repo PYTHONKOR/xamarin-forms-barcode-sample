@@ -13,7 +13,7 @@ namespace BarcodeSample
         {
             InitializeComponent();
 
-            MainPage = new BarcodeSample.MainPage();
+            MainPage = new NavigationPage(new BarcodeSample.MainPage());
         }
 
         protected override void OnStart()
